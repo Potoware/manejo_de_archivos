@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0398ac78-aff1-48e4-b6de-dc0cda585cca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/archivos/ejemplos/EjemploLeerArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/manejo_de_archivos/com/potoware/archivos/ejemplos/service/ArchivoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/manejo_de_archivos/com/potoware/archivos/ejemplos/service/ArchivoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/potoware/archivos/ejemplos/EjemploCrearArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/archivos/ejemplos/EjemploCrearArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/potoware/archivos/ejemplos/service/ArchivoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/archivos/ejemplos/service/ArchivoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
       <recent name="com.potoware.archivos.ejemplos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploCrearArchivo">
+  <component name="RunManager" selected="Application.EjemploLeerArchivo">
     <configuration name="EjemploCrearArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.archivos.ejemplos.EjemploCrearArchivo" />
       <module name="manejo_de_archivos" />
@@ -67,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploLeerArchivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.archivos.ejemplos.EjemploLeerArchivo" />
+      <module name="manejo_de_archivos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.archivos.ejemplos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploLeerArchivo" />
         <item itemvalue="Application.EjemploCrearArchivo" />
         <item itemvalue="Application.EjemploCrearArchivoThread" />
       </list>

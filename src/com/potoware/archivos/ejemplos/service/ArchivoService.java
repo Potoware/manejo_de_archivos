@@ -1,6 +1,7 @@
 package com.potoware.archivos.ejemplos.service;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class ArchivoService {
 
@@ -30,5 +31,42 @@ public class ArchivoService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public String leerArchivo(String nombre){
+        StringBuilder sb = new StringBuilder();
+        File archivo = new File(nombre);
+        try {
+            BufferedReader leer = new BufferedReader(new FileReader(archivo));
+
+            String linea;
+            while ((linea = leer.readLine())!= null){
+                sb.append(linea).append("\n");
+                leer.close();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+
+
+        }
+        return sb.toString();
+    }
+
+    public String leerArchivo2(String nombre){
+        StringBuilder sb = new StringBuilder();
+        File archivo = new File(nombre);
+        try {
+            Scanner s = new Scanner(archivo);
+            s.useDelimiter("\n");
+            while (s.hasNext()){
+                sb.append(s.next());
+            }
+            s.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+
+
+        }
+        return sb.toString();
     }
 }
